@@ -4,8 +4,7 @@ from typing import List, Union
 from dotenv import load_dotenv
 from langchain.tools import tool
 from langchain_classic.agents.format_scratchpad.log import format_log_to_str
-from langchain_classic.agents.output_parsers import \
-    ReActSingleInputOutputParser
+from langchain_classic.agents.output_parsers import ReActSingleInputOutputParser
 from langchain_core.agents import AgentAction, AgentFinish
 from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import Tool
